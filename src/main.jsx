@@ -8,7 +8,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import "./arabic.css"
 
 createRoot(document.getElementById('root')).render(
-  // <StrictMode>
+  <StrictMode>
     <App />
-  // </StrictMode>,
+  </StrictMode>,
 )
