@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div className="d-flex row">
-        <BrowserRouter basename="/suwantosanjaya.github.io">
+        <BrowserRouter basename="/my-quran">
           <div className=" col-3">
             <Navbar />
           </div>
