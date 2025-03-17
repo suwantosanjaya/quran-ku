@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div className="d-flex row">
-        {/* Menggunakan HashRouter karena akan di deploy di github pages */}
+        {/* Ganti menggunakan HashRouter karena akan di-deploy di github pages */}
         <HashRouter> 
           <div className=" col-3">
             <Navbar />
