@@ -1,7 +1,7 @@
 // import "./App.css";
 import Navbar from "./components/Navbar";
 import Content from "./components/Content";
-import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
 import DetailSurat from "./pages/DetailSurat";
 
@@ -9,7 +9,8 @@ function App() {
   return (
     <>
       <div className="d-flex row">
-        <HashRouter>
+        {/* Menggunakan HashRouter karena akan di deploy di github pages */}
+        <HashRouter> 
           <div className=" col-3">
             <Navbar />
           </div>
