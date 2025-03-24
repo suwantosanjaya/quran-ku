@@ -9,6 +9,8 @@ const Navbar = () => {
       .then((res) => res.json())
       .then((data) => {
         setSurat(data.data);
+        console.log(data);
+        
       })
       .catch((error) => {
         console.error("Error fetching data:", error);
